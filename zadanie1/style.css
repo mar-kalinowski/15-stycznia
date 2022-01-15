@@ -1,0 +1,68 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 1500px;
+    height: 2000px;
+}
+
+.center{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.banner{
+    text-align: center;
+}
+
+.banner__header{
+    text-transform: uppercase;
+    color: #000;
+}
+
+.banner__description{
+    color: #777;
+}
+
+.faq__element{
+    cursor: pointer;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.faq__element:hover{
+    box-shadow: 1px 1px 10px 1px #777;
+}
+
+.faq__answer{
+    display: none;
+}
+
+.faq__element:hover .faq__answer{
+    display: block;
+}
+
+.aside__menu{
+    padding: 10px;
+    background-color: antiquewhite;
+    top: 20%;
+    left: 0;
+    width: 130px;
+    height: 130px;
+    position: fixed;
+}
+
+.aside__menu__list{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.aside__menu__link{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+}
+
+.aside__menu__link:hover{
+    margin-left: 10px;
+    margin-right: 0;
+}
